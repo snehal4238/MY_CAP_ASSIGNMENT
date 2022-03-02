@@ -9,4 +9,4 @@ def fibo(x):
         a=b
         b=c
         print(a+b)
-fibo(8)
+fibo(int(input("enter range : "))) #get range OF values from user
